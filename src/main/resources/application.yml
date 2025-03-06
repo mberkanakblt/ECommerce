@@ -1,0 +1,23 @@
+server:
+  port: 9090
+
+
+
+spring:
+  security:
+    user:
+      name: mberkan
+      password: 1234
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${POSTGRE_URL}
+    username: ${USER_NAME}
+    password: ${PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  file:
+    name: ecommerce.log
+
+
