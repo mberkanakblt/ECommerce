@@ -16,5 +16,4 @@ public interface UrunRepository extends JpaRepository<Urun, Long> {
 
     List<Urun> findAllByAdContaining(String urunAdi);
 
-    Optional<Urun> findOptioanlById(@NotNull @Min(0) Long aLong);
 }

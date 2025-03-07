@@ -49,7 +49,7 @@ public class SepetService {
         }else {
             sepet = sepetOptional.get();
         }
-        Optional<Urun> urunOptional = urunRepository.findOptioanlById(dto.urunId());
+        Optional<Urun> urunOptional = urunService.findOptionalById(dto.urunId());
         if(urunOptional.isEmpty()) throw new ECommerceException(ErrorType.URUN_NOTFOUND);
         Urun urun = urunOptional.get();
         Optional<SepetUrunleri> su = sepetUrunleriRepository.findOptionalBySepetIdAndUrunId(sepet.getId(),dto.urunId());

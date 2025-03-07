@@ -8,7 +8,7 @@ import java.util.Optional;
 
 public interface SepetUrunleriRepository extends JpaRepository<SepetUrunleri, Long> {
 
-    Optional<SepetUrunleri> findOptionalBySepetIdAndUrunId(Long sepetId,Long urunId);
+    Optional<SepetUrunleri> findOptionalBySepetIdAndUrunId(Long sepetId, Long urunId);
 
     List<SepetUrunleri> findAllBySepetId(Long sepetId);
 }
