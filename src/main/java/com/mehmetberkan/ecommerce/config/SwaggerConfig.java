@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @OpenAPIDefinition(
-        info = @Info(title = "Muhammet HOCA", version = "1.0"),
+        info = @Info(title = "Admin", version = "1.0"),
         security = @SecurityRequirement(name = "bearerAuth")
 )
 @SecurityScheme(
