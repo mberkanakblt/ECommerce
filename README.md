@@ -13,7 +13,7 @@ Bu proje, Java ve Spring Boot kullanılarak geliştirilmiş, temel e-ticaret iş
 - **Lombok**
 - **ModelMapper**
 - **MapStruct**
-- **Swagger (Springfox)**
+- **Swagger **
 - **JWT (JSON Web Token)**
 
 ## 🔐 Güvenlik (Spring Security & JWT)
@@ -27,8 +27,8 @@ spring:
     password: your_password
 
  📒 API Dökümantasyonu
- http://localhost:9090/swagger-ui/index.html
+- http://localhost:9090/swagger-ui/index.html
 
 
  🔐 Roller Hakkında Not
- -Roller aktif değildir düzenleyip aktif hale getirebilirsiniz.
+ - Roller aktif değildir düzenleyip aktif hale getirebilirsiniz.
