@@ -4,7 +4,6 @@ Bu proje, Java ve Spring Boot kullanılarak geliştirilmiş, temel e-ticaret iş
 
 ## 🔧 Kullanılan Teknolojiler
 
-- **Java 17**
 - **Spring Boot**
 - **Spring Web**
 - **Spring Security** 🔐
@@ -25,10 +24,10 @@ spring:
     url: jdbc:postgresql://localhost:5432/ecommerce_db
     username: your_username
     password: your_password
-
- 📒 API Dökümantasyonu
+    
+## 📒 API Dökümantasyonu
 - http://localhost:9090/swagger-ui/index.html
 
 
- 🔐 Roller Hakkında Not
+## 🔐 Roller Hakkında Not
  - Roller aktif değildir düzenleyip aktif hale getirebilirsiniz.
