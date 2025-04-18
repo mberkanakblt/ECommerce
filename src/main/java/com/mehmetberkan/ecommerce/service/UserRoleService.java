@@ -18,9 +18,6 @@ public class UserRoleService {
                         .userId(userId)
                 .build());
     }
-//    public List<UserRole> getUserRoles(Long userId) {
-//        return userRoleRepository.findByUserId(userId);
-//    }
 
     public List<UserRole> findAllRole(Long userId) {
         return userRoleRepository.findByUserId(userId);

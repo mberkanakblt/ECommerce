@@ -58,4 +58,9 @@ public class UrunService {
     public Optional<Urun> findOptionalById(Long urunId) {
         return urunRepository.findById(urunId);
     }
+
+    public List<Urun> getUrun(Long urunId) {
+
+        return urunRepository.getUrunById(urunId);
+    }
 }

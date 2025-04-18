@@ -49,6 +49,16 @@ public class UrunController {
                         .data(urunService.getViewUrunList())
                 .build());
     }
+    @GetMapping(GET_URUN+"/{urunId}")
+    public ResponseEntity<BaseResponse<Urun>> findByUrunId(@PathVariable Long urunId){
+        Optional<Urun> urunOptional = urunService.findOptionalById(urunId);
+        if(urunOptional.isEmpty()) throw new ECommerceException(ErrorType.URUN_NOTFOUND);
+        return ResponseEntity.ok(BaseResponse.<Urun>builder()
+                .code(200)
+                .data(urunOptional.get())
+                .message("Ürün bilgisi getirildi")
+                .build());
+    }
 
     @GetMapping(GET_URUN_BY_NAME+"/{urunAdi}")
     public ResponseEntity<BaseResponse<List<Urun>>> findByAd(@PathVariable String urunAdi){

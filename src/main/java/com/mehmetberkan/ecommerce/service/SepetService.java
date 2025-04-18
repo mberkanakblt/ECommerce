@@ -39,19 +39,23 @@ public class SepetService {
         return new SatisService();
     }
 
-    public void addSepet(AddSepetRequestDto dto) {
+    public void addSepet(AddSepetRequestDto dto, Long kullaniciId) {
 
         Sepet sepet;
-        Optional<Sepet> sepetOptional = sepetRepository.findOptionalByUserId(dto.kullaniciId());
-        if(sepetOptional.isEmpty()){
-            sepet = SepetMapper.INSTANCE.fromSepetRequestDto(dto);
-       sepetRepository.save(sepet);
+        Optional<Sepet> sepetOptional = sepetRepository.findOptionalByUserId(kullaniciId);
+        if(sepetOptional.isEmpty()){ // böyle bir sepet yok ise
+            sepet = Sepet.builder().userId(kullaniciId).build();
+            sepetRepository.save(sepet);
         }else {
             sepet = sepetOptional.get();
         }
+        // buradan itibaren artık ürünü ilgili sepet için sepet listesine ekliyoruz.
         Optional<Urun> urunOptional = urunService.findOptionalById(dto.urunId());
         if(urunOptional.isEmpty()) throw new ECommerceException(ErrorType.URUN_NOTFOUND);
         Urun urun = urunOptional.get();
+        /**
+         * Eğer daha önceden bu ürün sepete eklendi ise tekrar ekleme adedini arttır.
+         */
         Optional<SepetUrunleri> su = sepetUrunleriRepository.findOptionalBySepetIdAndUrunId(sepet.getId(),dto.urunId());
         SepetUrunleri sepetUrunleri;
         if(su.isEmpty())

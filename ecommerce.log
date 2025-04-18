@@ -1,20 +1,20 @@
-2025-03-07T12:32:03.048+03:00  INFO 82984 --- [main] c.m.ecommerce.ECommerceApplication       : Starting ECommerceApplication using Java 23 with PID 82984 (C:\BOOST_JAVA\JAVA_SE\ECommerce\build\classes\java\main started by berka in C:\BOOST_JAVA\JAVA_SE\ECommerce)
-2025-03-07T12:32:03.054+03:00  INFO 82984 --- [main] c.m.ecommerce.ECommerceApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-03-07T12:32:04.088+03:00  INFO 82984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-07T12:32:04.164+03:00  INFO 82984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 6 JPA repository interfaces.
-2025-03-07T12:32:04.711+03:00  INFO 82984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2025-03-07T12:32:04.724+03:00  INFO 82984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-07T12:32:04.724+03:00  INFO 82984 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-07T12:32:04.780+03:00  INFO 82984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-07T12:32:04.780+03:00  INFO 82984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1673 ms
-2025-03-07T12:32:04.934+03:00  INFO 82984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-07T12:32:05.019+03:00  INFO 82984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-03-07T12:32:05.059+03:00  INFO 82984 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-07T12:32:05.400+03:00  INFO 82984 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-07T12:32:05.437+03:00  INFO 82984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-07T12:32:05.668+03:00  INFO 82984 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@75dc1c1c
-2025-03-07T12:32:05.670+03:00  INFO 82984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-07T12:32:05.821+03:00  INFO 82984 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-18T23:52:31.123+03:00  INFO 52084 --- [main] c.m.ecommerce.ECommerceApplication       : Starting ECommerceApplication using Java 23 with PID 52084 (C:\BOOST_JAVA\JAVA_SE\ECommerce\build\classes\java\main started by berka in C:\BOOST_JAVA\JAVA_SE\ECommerce)
+2025-04-18T23:52:31.126+03:00  INFO 52084 --- [main] c.m.ecommerce.ECommerceApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-18T23:52:31.932+03:00  INFO 52084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-18T23:52:31.995+03:00  INFO 52084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 6 JPA repository interfaces.
+2025-04-18T23:52:32.449+03:00  INFO 52084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-04-18T23:52:32.462+03:00  INFO 52084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-18T23:52:32.462+03:00  INFO 52084 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-18T23:52:32.516+03:00  INFO 52084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-18T23:52:32.516+03:00  INFO 52084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2025-04-18T23:52:32.649+03:00  INFO 52084 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-18T23:52:32.728+03:00  INFO 52084 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-04-18T23:52:32.764+03:00  INFO 52084 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-18T23:52:33.069+03:00  INFO 52084 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-18T23:52:33.099+03:00  INFO 52084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-18T23:52:33.299+03:00  INFO 52084 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3cead673
+2025-04-18T23:52:33.300+03:00  INFO 52084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-18T23:52:33.443+03:00  INFO 52084 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.2
@@ -22,90 +22,16 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-03-07T12:32:06.792+03:00  INFO 82984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-07T12:32:06.991+03:00  INFO 82984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-07T12:32:07.361+03:00  INFO 82984 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-03-07T12:32:08.007+03:00  WARN 82984 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-07T12:32:08.042+03:00  INFO 82984 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name jwtUserDetails
-2025-03-07T12:32:08.108+03:00  WARN 82984 --- [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/swagger-ui/**, v3/api-docs/**, /dev/v1/kullanici/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
-2025-03-07T12:32:08.549+03:00  INFO 82984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
-2025-03-07T12:32:08.556+03:00  INFO 82984 --- [main] c.m.ecommerce.ECommerceApplication       : Started ECommerceApplication in 6.503 seconds (process running for 7.999)
-2025-03-07T12:37:49.861+03:00  INFO 82984 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-07T12:37:49.873+03:00  INFO 82984 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-07T12:37:49.877+03:00  INFO 82984 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-03-07T12:37:49.879+03:00  INFO 82984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-07T12:37:49.882+03:00  INFO 82984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-07T12:37:53.212+03:00  INFO 100072 --- [main] c.m.ecommerce.ECommerceApplication       : Starting ECommerceApplication using Java 23 with PID 100072 (C:\BOOST_JAVA\JAVA_SE\ECommerce\build\classes\java\main started by berka in C:\BOOST_JAVA\JAVA_SE\ECommerce)
-2025-03-07T12:37:53.214+03:00  INFO 100072 --- [main] c.m.ecommerce.ECommerceApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-03-07T12:37:53.910+03:00  INFO 100072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-07T12:37:53.970+03:00  INFO 100072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 6 JPA repository interfaces.
-2025-03-07T12:37:54.425+03:00  INFO 100072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2025-03-07T12:37:54.436+03:00  INFO 100072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-07T12:37:54.436+03:00  INFO 100072 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-07T12:37:54.486+03:00  INFO 100072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-07T12:37:54.487+03:00  INFO 100072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1237 ms
-2025-03-07T12:37:54.600+03:00  INFO 100072 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-07T12:37:54.647+03:00  INFO 100072 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-03-07T12:37:54.680+03:00  INFO 100072 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-07T12:37:54.921+03:00  INFO 100072 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-07T12:37:54.947+03:00  INFO 100072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-07T12:37:55.191+03:00  INFO 100072 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29519337
-2025-03-07T12:37:55.192+03:00  INFO 100072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-07T12:37:55.245+03:00  INFO 100072 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-03-07T12:37:56.052+03:00  INFO 100072 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-07T12:37:56.097+03:00  INFO 100072 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-07T12:37:56.387+03:00  INFO 100072 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-03-07T12:37:56.937+03:00  WARN 100072 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-07T12:37:56.967+03:00  INFO 100072 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name jwtUserDetails
-2025-03-07T12:37:57.015+03:00  WARN 100072 --- [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/swagger-ui/**, v3/api-docs/**, /dev/v1/kullanici/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
-2025-03-07T12:37:57.384+03:00  INFO 100072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
-2025-03-07T12:37:57.390+03:00  INFO 100072 --- [main] c.m.ecommerce.ECommerceApplication       : Started ECommerceApplication in 4.614 seconds (process running for 5.141)
-2025-03-07T12:38:04.257+03:00  INFO 100072 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-07T12:38:04.268+03:00  INFO 100072 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-07T12:38:04.273+03:00  INFO 100072 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-03-07T12:38:04.274+03:00  INFO 100072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-07T12:38:04.277+03:00  INFO 100072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-03-07T16:56:38.140+03:00  INFO 108916 --- [main] c.m.ecommerce.ECommerceApplication       : Starting ECommerceApplication using Java 23 with PID 108916 (C:\BOOST_JAVA\JAVA_SE\ECommerce\build\classes\java\main started by berka in C:\BOOST_JAVA\JAVA_SE\ECommerce)
-2025-03-07T16:56:38.142+03:00  INFO 108916 --- [main] c.m.ecommerce.ECommerceApplication       : No active profile set, falling back to 1 default profile: "default"
-2025-03-07T16:56:38.977+03:00  INFO 108916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-07T16:56:39.044+03:00  INFO 108916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 6 JPA repository interfaces.
-2025-03-07T16:56:39.532+03:00  INFO 108916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2025-03-07T16:56:39.544+03:00  INFO 108916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-07T16:56:39.544+03:00  INFO 108916 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-07T16:56:39.614+03:00  INFO 108916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-07T16:56:39.615+03:00  INFO 108916 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1428 ms
-2025-03-07T16:56:39.748+03:00  INFO 108916 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-07T16:56:39.826+03:00  INFO 108916 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-03-07T16:56:39.863+03:00  INFO 108916 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-07T16:56:40.211+03:00  INFO 108916 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-07T16:56:40.254+03:00  INFO 108916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-07T16:56:40.463+03:00  INFO 108916 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@713e7d9a
-2025-03-07T16:56:40.465+03:00  INFO 108916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-07T16:56:40.595+03:00  INFO 108916 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-03-07T16:56:41.492+03:00  INFO 108916 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-07T16:56:41.583+03:00  INFO 108916 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-07T16:56:41.930+03:00  INFO 108916 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-03-07T16:56:42.541+03:00  WARN 108916 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-07T16:56:42.570+03:00  INFO 108916 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name jwtUserDetails
-2025-03-07T16:56:42.635+03:00  WARN 108916 --- [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/swagger-ui/**, v3/api-docs/**, /dev/v1/kullanici/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
-2025-03-07T16:56:43.085+03:00  INFO 108916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
-2025-03-07T16:56:43.091+03:00  INFO 108916 --- [main] c.m.ecommerce.ECommerceApplication       : Started ECommerceApplication in 5.432 seconds (process running for 6.221)
-2025-03-07T17:15:18.979+03:00  INFO 108916 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-07T17:15:18.991+03:00  INFO 108916 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-03-07T17:15:18.996+03:00  INFO 108916 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-03-07T17:15:18.998+03:00  INFO 108916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-03-07T17:15:19.001+03:00  INFO 108916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-18T23:52:34.435+03:00  INFO 52084 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-18T23:52:34.623+03:00  INFO 52084 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-18T23:52:34.997+03:00  INFO 52084 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-18T23:52:35.595+03:00  WARN 52084 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-18T23:52:35.628+03:00  INFO 52084 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name jwtUserDetails
+2025-04-18T23:52:35.691+03:00  WARN 52084 --- [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/swagger-ui/**, v3/api-docs/**, /dev/v1/kullanici/**, /dev/v1/kategori/get-main-kategori, /dev/v1/urun/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-04-18T23:52:36.093+03:00  INFO 52084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-04-18T23:52:36.100+03:00  INFO 52084 --- [main] c.m.ecommerce.ECommerceApplication       : Started ECommerceApplication in 5.445 seconds (process running for 6.278)
+2025-04-18T23:52:40.440+03:00  INFO 52084 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-18T23:52:40.452+03:00  INFO 52084 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-18T23:52:40.456+03:00  INFO 52084 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-18T23:52:40.457+03:00  INFO 52084 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-18T23:52:40.461+03:00  INFO 52084 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

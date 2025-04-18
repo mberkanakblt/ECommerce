@@ -26,4 +26,5 @@ public class RestApis {
     public static final String GET_URUN_BY_NAME= "/get-urun-by-name";
     public static final String REDUCE_STOCK= "/reduce-stock";
     public static final String INCREASE_STOCK= "/increase-stock";
+    public static final String GET_URUN= "/get-urun";
 }

@@ -19,7 +19,7 @@ public class JwtManager {
 
     private String secretKey= "${my-jwt.secret-key}";
     private String issuer = "Admin1";
-    private Long expirationDate = 1000L * 60*60;
+    private Long expirationDate = 1000L * 60*60*5;
     public String createToken(Long userId){
         String token="";
         Long now = System.currentTimeMillis(); // şuan ki zamanını long olarak değerini verir

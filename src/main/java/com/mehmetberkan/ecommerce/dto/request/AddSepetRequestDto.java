@@ -6,9 +6,9 @@ import jakarta.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 public record AddSepetRequestDto(
+
         @NotNull
-        @Min(0)
-        Long kullaniciId,
+        String token,
         @NotNull
         @Min(0)
         Long urunId

@@ -1,4 +1,5 @@
 package com.mehmetberkan.ecommerce.controller;
+import com.mehmetberkan.ecommerce.config.JwtManager;
 import com.mehmetberkan.ecommerce.dto.request.AddSepetRequestDto;
 import com.mehmetberkan.ecommerce.dto.request.ArttirAzaltRequestDto;
 import com.mehmetberkan.ecommerce.dto.request.RemoveAllSepetRequestDto;
@@ -14,6 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 import static com.mehmetberkan.ecommerce.config.RestApis.*;
 
@@ -25,14 +27,16 @@ import static com.mehmetberkan.ecommerce.config.RestApis.*;
 @SecurityRequirement(name = "bearerAuth")
 public class SepetController {
     private final SepetService sepetService;
+    private final JwtManager jwtManager;
 
     @PostMapping(ADD_SEPET)
-    public ResponseEntity<BaseResponse<Boolean>> addSepet(@RequestBody AddSepetRequestDto dto){
-        sepetService.addSepet(dto);
+    public ResponseEntity<BaseResponse<Boolean>> addSepet(@RequestBody @Valid AddSepetRequestDto dto){
+        Optional<Long> optionalUserId = jwtManager.validateToken(dto.token());
+        sepetService.addSepet(dto, optionalUserId.get());
         return ResponseEntity.ok(BaseResponse.<Boolean>builder()
-                        .code(200)
-                        .message("Sepet olusturuldu")
-                        .data(true)
+                .code(200)
+                .message("Ürün sepete eklendi")
+                .data(true)
                 .build());
     }
     @DeleteMapping(REMOVE_IN_SEPET)

@@ -63,6 +63,19 @@ public class KullaniciController {
                 .build());
     }
 
+    @GetMapping("/get-user-name/{token}")
+    public ResponseEntity<BaseResponse<String>> getUserName(@PathVariable String token){
+        Optional<Long> optionalUserId = jwtManager.validateToken(token);
+        if(optionalUserId.isEmpty())    throw new ECommerceException(ErrorType.INVALID_TOKEN);
+        Optional<Kullanici> optionalKullanici = kullaniciService.findByUserId(optionalUserId.get());
+        if(optionalKullanici.isEmpty()) throw new ECommerceException(ErrorType.USER_NOT_FOUND);
+        return ResponseEntity.ok(BaseResponse.<String>builder()
+                        .code(200)
+                        .message("Kullanıcıc adı basariyla getirildi")
+                        .data(optionalKullanici.get().getAd())
+                .build());
+    }
+
 
 
 

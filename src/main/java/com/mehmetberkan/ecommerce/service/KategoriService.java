@@ -16,7 +16,7 @@ public class KategoriService {
     private final KategoriRepository repository;
 
     public Kategori addKategori(AddRequestKategoriDto dto) {
-        Boolean isExists = repository.existsByAdAndParentId(dto.ad(),dto.parentId());
+        Boolean isExists = repository.existsByAdAndParentId(dto.ad(), dto.parentId());
         if(isExists) throw new ECommerceException(ErrorType.EXISTED_KATEGORI);
         Kategori kategori = Kategori.builder()
                 .ad(dto.ad())
@@ -24,7 +24,6 @@ public class KategoriService {
                 .build();
         repository.save(kategori);
         return kategori;
-
     }
 
     public List<Kategori> getMainKategori() {
