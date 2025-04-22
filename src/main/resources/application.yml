@@ -16,8 +16,6 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-logging:
-  file:
-    name: ecommerce.log
+
 
 
