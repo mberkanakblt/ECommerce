@@ -31,3 +31,5 @@ spring:
 
 ## 🔐 Roller Hakkında Not
  - Roller aktif değildir düzenleyip aktif hale getirebilirsiniz.
+
+NOT: GELİŞTİRMEYE DEVAM EDİYORUM.
